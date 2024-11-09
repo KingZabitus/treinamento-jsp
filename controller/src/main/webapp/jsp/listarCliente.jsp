@@ -31,7 +31,6 @@ Exibir um combox com os clientes utilizando a classe Elemento
 			
 			for(Elemento elementoCliente: elementoListaCiente.getFilhos("cliente")) {
 			%>
-			
 					<option><%= elementoCliente.getValor("nome") %></option>
 			
 					<%
